@@ -1,0 +1,204 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+  font-family: monospace;
+}
+
+.Header {
+  text-align: left;
+  padding: 0.5rem;
+  background: rgb(16, 34, 40);
+  font-size: 18px;
+  font-weight: 300;
+  color: whitesmoke;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.Nav label {
+  display: none;
+}
+
+.Nav {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+  background: gray;
+  gap: 1rem;
+  margin-top: 3.5rem ;
+}
+
+.searchForm {
+  display: flex;
+  align-items: flex-end;
+}
+
+.searchForm input {
+  padding: 0.5rem;
+  width: 75%;
+  outline: none;
+}
+
+ul {
+  display: flex;
+  gap: 1rem;
+  list-style-type: none;
+}
+
+.link {
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 15px;
+}
+
+.link:hover {
+  border-bottom: 2px solid whitesmoke;
+  color: black;
+}
+
+.Main {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: whitesmoke;
+  color: white;
+  text-align: left;
+  padding: 0.5rem;
+  flex-grow: 1;
+  margin-bottom: 0.8rem;
+}
+
+.Main .home {
+  color: black;
+  font-size: 18px;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  border-bottom: 1px solid rgb(30, 25, 25);
+  padding: 0.5rem;
+}
+
+.post .link1 {
+  text-decoration: none;
+  color: darkslategray
+}
+
+.post p {
+  color: black;
+}
+
+.post h2 {
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.PostPage .del {
+  background: red;
+  padding: 1.5rem;
+  border: 0px solid whitesmoke;
+  border-radius: 0.1rem;
+  color: whitesmoke;
+
+}
+
+.PostPage button:hover {
+  background: white;
+  color: red;
+  transition: 1s;
+}
+
+.NewPost {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  min-height: 75vh;
+  background: whitesmoke;
+}
+
+.NewPost .newPostForm {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  padding: 1.5rem;
+  gap: 2rem
+}
+
+.NewPost .newPostForm label {
+  text-align: left;
+  font-size: 1rem;
+}
+
+.NewPost .newPostForm input {
+  outline: none;
+  padding: 0.3rem
+}
+
+.NewPost .newPostForm textarea {
+  outline: none;
+  padding: 0.3rem
+}
+
+.NewPost .newPostForm button {
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.NewPost .newPostForm button:hover {
+  background: lightblue;
+  transition: 1s;
+}
+
+span {
+  border-bottom: 2px solid darkslategrey;
+}
+
+.about {
+  height: 100vh;
+  font-size: 1.2rem;
+  background: whitesmoke;
+  text-align: left;
+  padding: 0.5rem
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  background: rgb(16, 34, 40);
+  width: 100%;
+  font-size: 18px;
+  font-weight: 300;
+  color: whitesmoke;
+  padding: 0.5rem;
+}
+
+.EditBtn {
+  background: olivedrab;
+  padding: 1.5rem;
+  border: 0px solid whitesmoke;
+  border-radius: 0.1rem;
+  color: whitesmoke;
+}
+
+.back {
+  padding: 0.5rem;
+  box-shadow: 0px 2px 3px -1px black;
+  outline: none;
+  border: 0px solid whitesmoke;
+}
+
+.back button:hover {
+  color: white;
+  background: black;
+}
